@@ -12,3 +12,10 @@ for (i = 0; i < dropdown.length; i++) {
     }
   });
 }  
+
+document.querySelector('#menu').addEventListener('click', toggleNav)
+document.querySelector('#close').addEventListener('click', toggleNav)
+
+function toggleNav() {
+  document.querySelector('#sidenav').classList.toggle('open')
+}

@@ -8,8 +8,29 @@
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
+    transition: 0.3s all ease;
+    transform: translateX(-100%);
   }
-  
+  .sidenav.open {
+    transform: translate(0);
+  }
+  .sidenav .close{
+    position: absolute;
+    right: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    color: white;
+    background:none;
+    width: 50px;
+    height: 50px;
+    font-size: 21px;
+  }
+
+  #menu {
+    
+
+  }
+
   .sidenav a, .dropdown-btn {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -32,4 +53,5 @@
     text-align: center;
     margin: auto;
     margin-left: 150px;
+    font-size: x-large;
   }
