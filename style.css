@@ -27,3 +27,9 @@
   .sidenav a:hover, .dropdown-btn:hover {
     color: #f1f1f1;
   }
+
+  p {
+    text-align: center;
+    margin: auto;
+    margin-left: 150px;
+  }
