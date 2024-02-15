@@ -83,7 +83,11 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+position: relative;
+}
+.card p {
+  position: absolute;
+  bottom: -35px
 }
 .cards {
   /* parent element for each .card */
