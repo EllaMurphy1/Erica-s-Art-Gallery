@@ -95,7 +95,7 @@ position: relative;
 }
 .cards {
   /* parent element for each .card */
-  background-color: #ffffff;
+  background-color: white;
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
@@ -123,4 +123,3 @@ position: relative;
 .home img {
   width: 75%
 }
- 
