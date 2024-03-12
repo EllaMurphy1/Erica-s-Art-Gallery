@@ -28,7 +28,7 @@
 
   #menu {
     color: black;
-    background-color: gainsboro ;
+    background-color: rgb(212, 211, 205) ;
 
   }
 
@@ -82,7 +82,7 @@ img {
   border: 2px soild #ddd;
   height: 400px;
   margin: auto;
-  background-color: white;
+  background-color: #fdead1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,7 +95,7 @@ position: relative;
 }
 .cards {
   /* parent element for each .card */
-  background-color: white;
+  background-color: #fdead1;
   padding: 50px 20px;
   display: flex;
   flex-direction: column;
@@ -123,4 +123,7 @@ position: relative;
 
 .home img {
   width: 75%
+}
+body {
+  background-color: #fdead1;
 }
